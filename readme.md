@@ -20,3 +20,17 @@
 6) Implementamos a interface do Cliente;
 7) Criamos a interface ViaCepService que tem a lógica para consumo da API de Cep;
 8) Criamos a controller ClienteController
+
+
+
+### Rotas
+[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+| **Rota**                                                                                           | Verbo  |
+|------------------------------------------------------------------------------------------------|--------|
+| [http://localhost:8080/clientes/](http://localhost:8080/clientes/)                             | GET    |
+| [http://localhost:8080/clientes/](http://localhost:8080/clientes/)                             | POST   |
+| [http://localhost:8080/clientes/{id}](http://localhost:8080/clientes/{id})                     | GET    |
+| [http://localhost:8080/clientes/{id}](http://localhost:8080/clientes/{id})                     | PUT    |
+| [http://localhost:8080/clientes/{id}](http://localhost:8080/clientes/{id})                     | DELETE |
+
